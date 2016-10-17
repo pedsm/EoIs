@@ -1,0 +1,156 @@
+\documentclass[11pt, oneside]{article}
+\title{Front Page Cover Sheet}
+\author{Group 1}
+\usepackage{graphicx}
+\sloppy
+\usepackage[utf8]{inputenc}
+\usepackage[parfill]{parskip}
+\usepackage{geometry}
+\usepackage{multicol}
+\usepackage[parfill]{parskip}
+\usepackage{graphicx}
+\usepackage[rightcaption]{sidecap} \usepackage[hyphens]{url}
+\usepackage[hidelinks]{hyperref}
+\usepackage{amssymb}
+\usepackage{fullpage}
+\usepackage{color}
+\usepackage[dvipsnames]{xcolor}
+
+%Computer Science Packages for code and algorithms
+\usepackage{listings}
+\usepackage[]{algorithm2e}
+
+\definecolor{codegreen}{rgb}{0.32,0.75,0.35}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codebrown}{rgb}{0.72,0.54,0}
+\definecolor{backcolour}{rgb}{0,0.17,0.26}
+\newcommand{\lastline}[1]{%
+    \begingroup\setlength{\parskip}{0pt}\par\nopagebreak
+        \raggedleft#1\par\endgroup
+        }
+
+\lstdefinestyle{darkstyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\ttfamily\tiny\color{backcolour},
+    stringstyle=\color{ProcessBlue},
+    basicstyle=\ttfamily\footnotesize\color{white},
+    breakatwhitespace=false,         
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+\lstdefinestyle{whitestyle}{
+    commentstyle=\color{Emerald},
+    keywordstyle=\color{red},
+    numberstyle=\ttfamily\tiny\color{backcolour},
+    stringstyle=\color{ProcessBlue},
+    basicstyle=\ttfamily\footnotesize\color{black},
+    breakatwhitespace=false,         
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+\lstset{language=Haskell}
+\lstset{breaklines=true}
+\lstset{style=whitestyle}
+
+
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
+\geometry{a4paper}
+
+%header
+% \usepackage{fancyhdr}
+% \setlength{\headheight}{28pt}
+% \pagestyle{fancy}
+% \fancyhf{}
+% \rhead{Pedro Santos de Mendonca}
+% \rfoot{\thepage}
+% \renewcommand{\headrulewidth}{1pt}
+% \setlength{\topmargin}{10pt}
+% \setlength{\headsep}{20pt}
+
+%\usepackage{setspace}
+%\doublespacing
+\usepackage{mathtools}
+\usepackage{xcolor}
+
+\usepackage[english]{babel}
+
+\begin{document}
+\maketitle
+
+\vspace{1cm}
+
+\begin{minipage}[t]{0.25\textwidth}
+    \textbf{Group Name}
+\end{minipage}
+\begin{minipage}[t]{0.35\textwidth}
+    Ndev
+\end{minipage}
+
+
+\vspace{0.3cm}
+
+\begin{minipage}[t]{0.25\textwidth}
+\textbf{Team Members}\\
+\end{minipage}
+\begin{minipage}[t]{0.35\textwidth}
+    Pedro Santos de Mendonca\\
+    Jonathan Balls\\
+    Samuel Copping\\
+    Weng San Wong\\
+    Holly Tang\\
+    Huachen Zhang\\
+\end{minipage}
+\begin{minipage}[t]{0.35\textwidth}
+    psyps4@nottingham.ac.uk \\
+    psycjba@nottingham.ac.uk \\
+    psysrc@nottingham.ac.uk \\
+    psy@nottingham.ac.uk \\
+    psyywt@nottingham.ac.uk \\
+    psyhz4@nottingham.ac.uk \\
+\end{minipage}
+
+\vspace{0.3cm}
+
+\begin{minipage}[t]{0.25\textwidth}
+    \textbf{Team Leader}
+\end{minipage}
+\begin{minipage}[t]{0.35\textwidth}
+    Pedro Santos de Mendonca
+\end{minipage}
+
+\vspace{0.3cm}
+
+\begin{minipage}[t]{0.25\textwidth}
+    \textbf{Chosen Projects}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+    An Automatic Fingerprint Identification\\
+    Mixed Reality Poker\\
+    Face As A Game Controller\\
+    What Is Flying Around Me\\
+\end{minipage}
+
+\begin{minipage}[t]{0.25\textwidth}
+    \textbf{Unwanted Projects}
+\end{minipage}
+\begin{minipage}[t]{0.5\textwidth}
+    Thompson Reuters\\
+    Atos Project Brief\\
+\end{minipage}
+
+\end{document}
+
