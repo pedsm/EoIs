@@ -8,3 +8,5 @@ all:
 	cp Fingerprint/*.pdf output
 	cp Flying/*.pdf output
 	cp Poker/*.pdf output
+	rm *.pdf *.out *.log *.aux
+
